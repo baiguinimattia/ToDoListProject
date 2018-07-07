@@ -7,16 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/lib/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
     <div id="container">
-        <h1>To-Do List</h1>
-        <input type="text">
+        <h1>To-Do List<span id="plusIcon"><i class="fas fa-plus"></i></span></h1>
+        <input type="text" placeholder="Add new Todo">
 
         <ul>
-            <li><span>X</span> Buy food</li>
-            <li><span>X</span> Eat</li>
-            <li><span>X</span> Visit Zuzi</li>
+            <li><span><i class="fa fa-trash"></i></span> Buy food</li>
+            <li><span><i class="fa fa-trash"></i></span> Eat</li>
+            <li><span><i class="fa fa-trash"></i></span> Visit Zuzi</li>
         </ul>
     </div>
     <script type="text/javascript" src="assets/js/todos.js"></script>
